@@ -1,0 +1,17 @@
+{
+  "name": "presentationdeck-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/srouse/presentationdeck-app.git",
+  "author": "Scott Rouse <scott.rouse@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:readme",
+    "build:readme": "ctfl-readme build",
+    "server": "http-server ./dist"
+  },
+  "dependencies": {
+    "contentful-readme-generator": "^0.0.9",
+    "http-server": "^14.1.1"
+  }
+}
