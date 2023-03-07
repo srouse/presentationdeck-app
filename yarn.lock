@@ -343,10 +343,10 @@ concat-with-sourcemaps@*:
   dependencies:
     source-map "^0.6.1"
 
-contentful-readme-generator@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/contentful-readme-generator/-/contentful-readme-generator-0.0.9.tgz#e62f6ef4d825eddee77c38f6e3936077e3ef6ca1"
-  integrity sha512-RDv/yO788LyldW7f076HIMjX+zD8a20+Vq+ZyIEPpeTlqLcEvbeUd0Ebllbwt/vKGE6EPvljubDJjlJIwy+3jw==
+contentful-readme-generator@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/contentful-readme-generator/-/contentful-readme-generator-0.0.10.tgz#76b5cf0bb14c61951730fb15f94d7eb8ae5bed83"
+  integrity sha512-jAIR93vbM3j+JRo2dBCdq9UxWLrz5s7tjzEYg7HkWuU+8+wgnpTqfObZece9i9CRyGvfiUAzw28hYcfvjqRXow==
   dependencies:
     badges "^4.27.0"
     chalk "^5.0.1"
