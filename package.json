@@ -6,12 +6,16 @@
   "author": "Scott Rouse <scott.rouse@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "copy": "node ./scripts/copy.mjs",
     "build": "yarn build:readme",
-    "build:readme": "ctfl-readme build",
+    "build:readme": "yarn copy && ctfl-readme build",
     "server": "http-server ./dist"
   },
   "dependencies": {
     "contentful-readme-generator": "0.0.10",
     "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "recursive-copy": "^2.0.14"
   }
 }
